@@ -56,7 +56,7 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+For the "retain changes" architecture, every change creates a new row rather than overwriting. The old rows will be labelled as "invalid" or out of date in a boolean column. For the "overwrite" architecture, when a customer moves, the old address is simply replaced, which is Type 1. Type 2 is the "retain changes" architecture.
 ```
 
 ***
@@ -191,5 +191,9 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+This article makes a very simple argument, that artificial intelligence is not actually artificial. Hidden beneath every artifical neural network is a large amount of human labour that is potentially underpaid and often underappreciated. 
+The most immediate issue is labour exploitation. ImageNet is a key resource in machine learning. It was built by tens of thousands of workers on Amazon Mechanical Turk, who tagged images for just a few cents each. Crowd workers often deal with a casual workforce. They lack benefits, job security, and collective bargaining. The typical story of AI highlights a celebrated researcher (like Dr. Fei-Fei Li) catching the eye of a tech giant. The story of the Turkers, who did the actual work, rarely gets told. This trend has only grown since the article was written. 
+The author tells the history of a modern image classifier back to newspaper clippings sorted by graduate students in the 1960s. This story is crucial for understanding bias in machine learning. Each layer of a training set is influenced by politics of the time. The choices about what categories exist, what counts as a synonym, and which images represent a concept are never neutral. They reflect the beliefs of those who created them. When these beliefs are flawed, the bias doesn’t remain in the dataset; it gets amplified by the model trained on it. The ImageNet Roulette project made this clear: a system trained on human-labeled data assigned offensive labels to real people. The harm is not an error of the machine; it stems from human judgment.
+A significant accountability issue arises from the invisibility of these foundations. When an AI system makes a harmful decision, like misidentifying a face, it’s hard to find the person that is accountable for the mistake. Which labeled image caused the problem? Which taxonomy included the bias? Who decided what to include or exclude? The spread of authorship among thousands of anonymous crpw workers, decades of academic work, and various organizational handoffs makes it easy for companies to deny responsibility. No one is accountable because everyone contributed, and no one's contribution is clear.
+In addition, the author makes another good point by comparing AI to garment manufacturing: what we think is automated often isn't. Every piece of clothing is still assembled by hand; every neural network relies on human judgment. The danger of not recognizing this is serious. When we view a system as purely mechanical and objective, we grant it an authority that human judgment would not receive without question. We stop asking who made the decision and start believing that the machine made it, as if that were a valid answer. Placing humans at the center of these systems is essential for ensuring ethical accountability.
 ```
