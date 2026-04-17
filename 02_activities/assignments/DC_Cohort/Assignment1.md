@@ -209,5 +209,9 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+As a computational biologist working with human genetics data, I see value systems embedded in the databases I use every day. These systems can be invisible but have major consequences. An example is the lack of diversity in the human genetics data being collected. Large scientific projects like the UK Biobank or early genome-wide association study (GWAS) cohorts mainly include individuals of European descent. This isn't just a irrelevant technical detail, it shows historical choices about who gets studied and who has access to healthcare for research.
+
+When sample sizes are small, we often stick to the most represented group, usually those of European ancestry. This choice is practical, but it sends a clear message: research efficiency matters more than being fair. Conclusions about disease risk, drug response, or genetic variants are then seen as generalizable to all humans. In reality, they may not apply well to people of African, Asian, Indigenous, or other ancestries.
+
+This situation reflects structural marginalization within the data. Databases aren't neutral; they reveal who created them, who funded them, and who was included or excluded from scientific work. To fix this, we need to gather more diverse data, which is urgent. We must also question the value systems that caused these gaps and commit to inclusive research practices. Inclusion should be a scientific and ethical priority, not an afterthought.
 ```
